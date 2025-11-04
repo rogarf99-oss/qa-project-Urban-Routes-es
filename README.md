@@ -35,3 +35,22 @@ qa-project-Urban-Routes-es/
 ├─ data.py # Datos de prueba (direcciones, teléfono, tarjeta)
 ├─ requirements.txt # Dependencias del proyecto
 └─ README.md # Este archivo
+
+## Instalación de librerías
+1. Asegúrate de tener **Python 3.14** instalado en tu máquina.  
+2. Clona el repositorio:
+```bash
+
+## Consejos
+- El navegador permanecerá **abierto** después de la ejecución de las pruebas para que puedas revisarlo manualmente.
+- Cada prueba contiene al menos un `assert` para verificar que la acción realizada funcionó correctamente.
+- PyTest detecta automáticamente el orden de las pruebas según el nombre de las funciones `test_`.
+
+## Autor y Sprint
+- **Nombre del autor:** Roberto Garfias
+- **Sprint del proyecto:** Sprint 9 - Grupo39 - QA / Automatización de pruebas
+
+
+
+
+
