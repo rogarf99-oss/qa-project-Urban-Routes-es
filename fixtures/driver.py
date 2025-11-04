@@ -1,9 +1,8 @@
+import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import pytest
 
-
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="class")
 def driver():
     chrome_options = Options()
     chrome_options.add_argument("--start-maximized")

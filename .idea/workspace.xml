@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462cdcf3-a38d-4392-80cf-678ae0b5cae2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qa-project-Urban-Routes-es.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/urban_routes_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_urban_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/_init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/phone_intercept.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/urban_routes_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urban_routes_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_urban_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_urban_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/_init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/_init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rogar/OneDrive/Documentos/qa-project-Urban-Routes-es&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;

@@ -16,25 +16,29 @@ El objetivo es garantizar que el flujo principal de la aplicación funcione corr
 - **Interceptación de SMS**: Uso de un script utilitario para recuperar códigos enviados al número de teléfono de prueba.
 - **Estructura modular**: Carpeta `pages` para Page Objects, `tests` para los casos de prueba, y `fixtures` para configuraciones compartidas.
 
-## Estructura del proyecto
 qa-project-Urban-Routes-es/
 │
-├─ pages/
-│ └─ urban_routes_page.py # Clases y métodos de Page Object
+├── fixtures/                             # Configuraciones y utilidades compartidas
+│   ├── __init__.py                       # Permite tratar la carpeta como un paquete de Python
+│   └── driver.py                         # Configura e inicializa el WebDriver para las pruebas
 │
-├─ tests/
-│ └─ test_urban_routes.py # Casos de prueba automatizados
+├── pages/                                # Implementación del patrón Page Object Model (POM)
+│   ├── __init__.py                       # Marca el paquete de páginas
+│   └── urban_routes_page.py              # Contiene los localizadores y métodos de interacción con la web
 │
-├─ fixtures/
-│ └─ driver.py # Configuración de WebDriver
+├── tests/                                # Carpeta de pruebas automatizadas con Pytest
+│   ├── __init__.py                       # Define el paquete de pruebas
+│   └── test_urban_routes.py              # Pruebas principales del flujo completo de Urban Routes
 │
-├─ utils/
-│ └─ phone_intercept.py # Función para recuperar código SMS
+├── utils/                                # Funciones auxiliares o soporte adicional
+│   ├── __init__.py                       # Permite importar módulos desde utils
+│   └── phone_intercept.py                # Simula o intercepta el código SMS para validación
 │
-├─ configuration.py # Variables de configuración (URL base, etc.)
-├─ data.py # Datos de prueba (direcciones, teléfono, tarjeta)
-├─ requirements.txt # Dependencias del proyecto
-└─ README.md # Este archivo
+├── .gitignore.py                         # Archivos y carpetas que no se suben al repositorio
+├── configuration.py                      # Configuración general: URLs, credenciales y parámetros globales
+├── data.py                               # Datos de prueba (direcciones, teléfonos, tarifas, etc.)
+├── main.py                               # Punto de entrada para ejecutar o integrar el flujo completo de pruebas
+└── README.md                             # Documentación del proyecto
 
 ## Instalación de librerías
 1. Asegúrate de tener **Python 3.14** instalado en tu máquina.  
