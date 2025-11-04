@@ -1,0 +1,7 @@
+URL = "https://cnt-2841c54e-55ee-4406-a925-3c6ca49f664e.containerhub.tripleten-services.com?lng=es"
+FROM_ADDRESS = "East 2nd Street, 601"
+TO_ADDRESS = "1300 1st St"
+PHONE_NUMBER = "+1 123 123 12 12"
+SMS_CODE = "1234"
+CARD_NUMBER = "1234 5678 9100"
+CARD_CODE = "111"
