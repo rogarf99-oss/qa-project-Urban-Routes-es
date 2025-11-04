@@ -40,6 +40,7 @@ qa-project-Urban-Routes-es/
 1. Asegúrate de tener **Python 3.14** instalado en tu máquina.  
 2. Clona el repositorio:
 ```bash
+git clone https://github.com/rogarf99-oss/qa-project-Urban-Routes-es.git
 
 ## Consejos
 - El navegador permanecerá **abierto** después de la ejecución de las pruebas para que puedas revisarlo manualmente.
