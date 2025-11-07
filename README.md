@@ -74,10 +74,9 @@ qa-project-Urban-Routes-es/
 git clone https://github.com/rogarf99-oss/qa-project-Urban-Routes-es.git
 cd qa-project-Urban-Routes-es
 
-<<<<<<< HEAD
 ##Ejecuta todas las pruebas
 pytest -v
-=======
+
 ## Consejos
 - El navegador permanecerá **abierto** después de la ejecución de las pruebas para que puedas revisarlo manualmente.
 - Cada prueba contiene al menos un `assert` para verificar que la acción realizada funcionó correctamente.
@@ -87,34 +86,21 @@ pytest -v
 - **Nombre del autor:** Roberto Garfias
 - **Sprint del proyecto:** Sprint 9 - Grupo39 - QA / Automatización de pruebas
 
-
 **Estado del Proyecto
-
 El proyecto Urban Routes QA Automation se encuentra completamente actualizado y funcional.
-Se implementaron 9 pruebas automatizadas utilizando Pytest y Selenium WebDriver, siguiendo las buenas prácticas de automatización y la estructura modular recomendada.
+Se implementaron 8 pruebas automatizadas utilizando Pytest y Selenium WebDriver, siguiendo las buenas prácticas de automatización y la estructura modular recomendada.
 
 Cobertura de pruebas:
-
 test_set_route → Verifica el establecimiento correcto de la ruta.
-
 test_select_comfort → Comprueba la selección de la tarifa Comfort.
-
 test_enter_phone_number → Valida el ingreso y solicitud del número telefónico.
-
 test_enter_and_confirm_sms_code → Confirma la correcta validación del código SMS.
-
 test_add_payment_method → Verifica la adición de un método de pago (tarjeta).
-
 test_write_message → Comprueba que se puede escribir un mensaje para el conductor.
-
 test_blanket → Valida la solicitud de una frazada.
-
 test_add_icecream → Verifica que se puedan añadir helados.
-
 test_find_driver → Asegura que el sistema pueda buscar correctamente un conductor.
-
 Cada prueba incluye al menos un assert y se ejecuta de manera ordenada con una sola instancia de WebDriver, optimizando el flujo completo de la aplicación.
->>>>>>> 6fe55b8084a026e77e2343f9b7b9180924ed0fc0
 
 Consejos
 -El navegador permanece abierto durante toda la sesión para revisión manual.
