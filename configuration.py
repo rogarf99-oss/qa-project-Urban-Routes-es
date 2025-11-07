@@ -1,1 +1,1 @@
-BASE_URL = "https://cnt-2841c54e-55ee-4406-a925-3c6ca49f664e.containerhub.tripleten-services.com?lng=es"
+BASE_URL = "https://cnt-6778d7f8-c8e5-410b-955b-f820d2657a85.containerhub.tripleten-services.com?lng=es"

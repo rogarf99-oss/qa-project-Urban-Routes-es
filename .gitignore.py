@@ -1,5 +1,7 @@
-# Ignorar configuraciones locales
-.idea/
 __pycache__/
 *.pyc
+*.log
 .venv/
+.idea/
+.DS_Store
+chromedriver.exe
